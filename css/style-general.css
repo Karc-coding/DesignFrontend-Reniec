@@ -1,0 +1,10 @@
+body{
+    background-image: url(../media/background/fondo_huella_1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+.icon{
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
