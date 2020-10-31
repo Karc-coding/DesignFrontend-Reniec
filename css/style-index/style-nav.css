@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root{
-    --color: #FFFFFF;
+    --colorB: #FFFFFF;
 }
 
 nav{
@@ -22,7 +22,7 @@ nav{
     background-color: rgba(12, 11, 54, 25%);
 }
 .menu-link{
-    color: var(--color);
+    color: var(--colorB);
     display: block;
     padding: 1.5em 0.99em;
     font-family: 'Montserrat', sans-serif;
@@ -30,5 +30,5 @@ nav{
 }
 .menu-link:link, .menu-link:visited, .menu-link:active{
     text-decoration: none;
-    color: var(--color);
+    color: var(--colorB);
 }

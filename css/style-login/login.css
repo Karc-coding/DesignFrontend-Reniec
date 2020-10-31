@@ -49,6 +49,7 @@
 }
 label{
     color: var(--colorA);
+    font-family: var(--font);
     font-size: 15px;
     position: absolute;
     left: 10px;
@@ -85,8 +86,10 @@ label{
 .btn{
     border-radius: 0;
 }
-
 .consulta{
     margin-top: 38px;
     text-align: center;
+}
+.consulta > a{
+    font-family: var(--font);
 }

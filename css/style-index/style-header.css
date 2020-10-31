@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
 :root{
-    --color: #000000;
+    --colorA: #000000;
     --font: 'Source Sans Pro', sans-serif;
 }
 
@@ -32,7 +32,7 @@ header{
     position: relative;
 }
 .link{
-    color: var(--color);
+    color: var(--colorA);
     display: block;
     padding: 1em 1.2em;
     font-family: var(--font);
@@ -41,7 +41,7 @@ header{
 }
 .link:link, .link:visited, .link:active{
     text-decoration: none;
-    color: var(--color);
+    color: var(--colorA);
 }
 .line-separadora{
     margin-top: 14px;
