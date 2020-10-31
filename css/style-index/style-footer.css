@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+    --color: #FFFFFF;
+    --fontA: 'Source Sans Pro', sans-serif;
+    --fontB: 'Montserrat', sans-serif;
+}
+
+
+footer{
+    /*background-color: #535456;*/
+    background-image: linear-gradient(to bottom,#333333 20%, #535456 38.5%, #535456 100%);
+    margin-top: 100px;
+    display: flex;
+}
+.footer-logo, .phones, .social{
+    padding-top: 35px;
+}
+.footer-logo{
+    margin-left: 80px;
+}
+.portal-user{
+    margin-left: 110px;
+    padding-top: 50px;
+}
+.portal-user > img{
+    margin-left: 25px;
+}
+.portal-user > p{
+    text-align: center;
+    font-family: var(--fontA);
+    color: var(--color);
+    font-size: 16px;
+}
+.portal-user > p:link, .portal-user > p:visited, .portal-user > p:active{
+    text-decoration: none;
+    color: var(--color);
+}
+.phones{
+    color: var(--color);
+    margin-left: 60px;
+    text-align: center;
+    width: 10%;
+}
+.phones > h2{
+    font-family: var(--fontB);
+    font-size: 16px;
+}
+.phones > p{
+    font-family: var(--fontA);
+    font-size: 16px;
+}
+.social{
+    margin-left: 60px;
+}
+.social > h2{
+    color: var(--color);
+    font-family: var(--fontB);
+    font-size: 16px;
+}
+.social-links{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 10px;
+}
+.red-social{
+    color: var(--color);
+    font-family: var(--fontA);
+    font-size: 14px;
+}
+.otro{
+    margin-left: 80px;
+    padding-top: 65px;
+}
+.enlaces-otro{
+    list-style: none;
+    padding-left: 0;
+}
+.link-otro{
+    color: var(--color);
+    font-size: 16px;
+    font-family: var(--fontA);
+    font-weight: 600;
+}
+
+.derechos-web{
+    color: var(--color);
+    padding-left: 15px;
+    font-family: var(--fontA);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #535456;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}

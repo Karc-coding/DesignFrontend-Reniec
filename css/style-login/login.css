@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+    --font: 'Montserrat', sans-serif;
+    --colorA: #0C0B36;
+    --colorB: #5e5d5d;
+}
+.logo{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-login{
+    background-color: #FFFFFF;
+    position: block;
+    width: 431px;
+    height: 471px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.box-login > h1{
+    font-family: var(--font);
+    font-size: 23px;
+    text-align: center;
+    padding-top: 45px;
+}
+.form-login{
+    width: 100%;
+    margin: auto;
+}
+.box-input{
+    position: relative;
+    margin: 55px;
+}
+.form-label{
+    background: none;
+    color: var(--colorB);
+    font-size: 18px;
+    padding: 8px 10px 8px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--colorA);
+}
+.form-label:focus{
+    outline: none;
+    color: var(--colorB);
+}
+label{
+    color: var(--colorA);
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+.form-label:focus~label, .form-label:valid~label{
+    top: -14px;
+    font-size: 13px;
+    color: black;
+}
+.line{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.btn-form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--font);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+    background-color: rgba(12, 11, 54, 75%);
+}
+.btn-form:hover{
+    color: #FFFFFF;
+    background-color: rgba(12, 11, 54, 85%);
+}
+.btn{
+    border-radius: 0;
+}
+
+.consulta{
+    margin-top: 38px;
+    text-align: center;
+}
